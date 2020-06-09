@@ -59,7 +59,7 @@ This is a practical example of how to use.
   //  'xxxxxxxxxx'
 ```
 
-__Important: Your risk of collisions decreases with longer strings!__
+`__Important: Your risk of collisions decreases with longer strings!__`
 
 
 #### License
