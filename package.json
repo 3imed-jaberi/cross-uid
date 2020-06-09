@@ -1,5 +1,5 @@
 {
-  "name": "u-id",
+  "name": "cross-uid",
   "version": "1.0.0",
   "description": "Generate a randomize identifer with fixed length ⚡.",
   "main": "index.js",
