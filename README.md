@@ -10,17 +10,17 @@
 
 <!-- ***************** -->
 
-[travis-img]: https://travis-ci.org/3imed-jaberi/u-id.svg?branch=master
-[travis-url]: https://travis-ci.org/3imed-jaberi/u-id
-[coverage-img]: https://coveralls.io/repos/github/3imed-jaberi/u-id/badge.svg?branch=master
-[coverage-url]: https://coveralls.io/github/3imed-jaberi/u-id?branch=master
-[npm-badge]: https://img.shields.io/npm/v/u-id.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/u-id
+[travis-img]: https://travis-ci.org/3imed-jaberi/cross-uid.svg?branch=master
+[travis-url]: https://travis-ci.org/3imed-jaberi/cross-uid
+[coverage-img]: https://coveralls.io/repos/github/3imed-jaberi/cross-uid/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/3imed-jaberi/cross-uid?branch=master
+[npm-badge]: https://img.shields.io/npm/v/cross-uid.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/cross-uid
 [license-badge]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[license-url]: https://github.com/3imed-jaberi/u-id/blob/master/LICENSE
-[code-size-badge]: https://img.shields.io/github/languages/code-size/3imed-jaberi/u-id
+[license-url]: https://github.com/3imed-jaberi/cross-uid/blob/master/LICENSE
+[code-size-badge]: https://img.shields.io/github/languages/code-size/3imed-jaberi/cross-uid
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
-[coc-url]: https://github.com/3imed-jaberi/u-id/blob/master/CODE_OF_CONDUCT.md
+[coc-url]: https://github.com/3imed-jaberi/cross-uid/blob/master/CODE_OF_CONDUCT.md
 
 <!-- ***************** -->
 
@@ -30,13 +30,14 @@ Generate a randomize identifer with fixed length ⚡.
 - ✨ Polyfill Unique Id (Browser + Node.js).
 - ⚖️ Tiny Size.
 
+
 ### `Installation`
 
 ```bash
 # npm ..
-$ npm install u-id
+$ npm install cross-uid
 # yarn ..
-$ yarn add u-id
+$ yarn add cross-uid
 ```
 
 
@@ -45,7 +46,7 @@ $ yarn add u-id
 This is a practical example of how to use.
 
 ```javascript
-  const uid = require ('u-id');
+  const uid = require ('cross-uid');
 
   // you can pass a optional length arg to this func.
   // the default value of length is 12.
