@@ -1,4 +1,5 @@
 # Cross Unique Id
+
 ---
 
 [![Build Status][travis-img]][travis-url] &nbsp;&nbsp;
@@ -30,7 +31,6 @@ Generate a randomize identifer with fixed length ⚡.
 - ✨ Polyfill Unique Id (Browser + Node.js).
 - ⚖️ Tiny Size.
 
-
 ### `Installation`
 
 ```bash
@@ -40,30 +40,29 @@ $ npm install cross-uid
 $ yarn add cross-uid
 ```
 
-
 ### `Usage`
 
 This is a practical example of how to use.
 
 ```javascript
-  const uid = require ('cross-uid');
+const uid = require("cross-uid");
 
-  // you can pass a optional length arg to this func.
-  // the default value of length is 12.
-  // const myUniqueId = uid();
-  const myUniqueId = uid(15);
+// you can pass a optional length arg to this func.
+// the default value of length is 12.
+// const myUniqueId = uid();
+const myUniqueId = uid(15);
 
-  // Result: 
-  //  console.log(myUniqueId);
-  //  Treminal
-  //  $your_pc_name_with_your_directory
-  //  'xxxxxxxxxx'
+// Result:
+//  console.log(myUniqueId);
+//  Treminal
+//  $your_pc_name_with_your_directory
+//  'xxxxxxxxxx'
 ```
 
 `__Important: Your risk of collisions decreases with longer strings!__`
 
-
 #### License
+
 ---
 
-[MIT](LICENSE)
+[MIT](LICENSE) &copy; [Imed Jaberi](https://github.com/3imed-jaberi)
