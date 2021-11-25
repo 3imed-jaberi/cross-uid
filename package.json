@@ -1,6 +1,6 @@
 {
   "name": "cross-uid",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generate a randomize identifer with fixed length ⚡.",
   "main": "index.js",
   "files": [
@@ -23,7 +23,7 @@
   ],
   "author": {
     "name": "imed jaberi",
-    "email": "3imed.jaberi@gmail.com",
+    "email": "imed-jaberi@outlook.com",
     "url": "https://www.3imed-jaberi.com"
   },
   "license": "MIT",
